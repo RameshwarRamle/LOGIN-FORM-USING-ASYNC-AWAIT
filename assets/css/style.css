@@ -1,0 +1,34 @@
+
+#loginContainer ul{
+
+    display: flex;
+}
+
+#loginContainer ul li{
+
+    flex-grow: 1;
+    
+}
+
+#loginContainer .nav-link{
+    border-radius: 20px;
+}
+
+#loginContainer .nav-link.active{
+    background-color: #007bff;
+    color: white;
+}
+
+
+.spinner{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(255,255,255,0.7);
+    z-index:9999;
+}
