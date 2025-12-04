@@ -106,6 +106,8 @@ async function onlogin(eve){
         localStorage.setItem("loginSuccess", true);
         loginform.reset();
         snackbar(res.message, "success");
+        
+        window.location.href = "dashboard.html";
 
 
     }catch(err){

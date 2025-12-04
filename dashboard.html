@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Welcome to the Dashboard</h3>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function snackbar(title, icon) {
+            Swal.fire({
+                title,
+                icon,
+                timer: 2000
+            });
+        }
+        snackbar("Login Successful", "success");
+    </script>
+</body>
+</html>
